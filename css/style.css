@@ -1,0 +1,294 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.container{
+	width: 1140px;
+	margin: 0 auto;
+}
+
+
+a{
+	text-decoration: none;
+}
+
+h1,h2,h3,h4,h5,h6,p,span,button,input{
+	font-family: 'Rubik', sans-serif;
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
+header{
+	width: 100%;
+	padding: 20px 0px;
+}
+
+
+.header-contant{
+	display: flex;
+	justify-content: space-between;
+}
+
+
+.head-logo ul{
+	display: inline-block;
+	margin-left: 20px;
+}
+
+.head-logo ul li{
+    list-style: none;
+    display: inline-block;
+
+}
+
+.head-logo ul li a{
+	color: #292640;
+	font-size: 16px;
+	font-weight: 600;
+	margin: 0px 10px;
+
+}
+
+.head-logo img{
+	vertical-align: middle;
+}
+
+
+.menu-btn button a{
+	border: none;
+	color: white;
+	padding: 16px 26px;
+	background: #ff6162;
+	font-size: 16px;
+	font-weight: 600;
+	text-transform: capitalize;
+	border-radius: 6px;
+}
+
+
+section{
+	width: 100%;
+	padding: 200px 100px;
+}
+
+.banner-contant{
+	display: flex;
+}
+
+.banner-left,.banner-right{
+	flex-basis: 50%;
+}
+
+.banner-left h2{
+	color: #000000;
+	font-size: 48px;
+	font-weight: 600;
+}
+
+.banner-left p{
+	color: #a2a4cb;
+	font-size: 16px;
+	font-weight: 300;
+	margin: 30px 120px 30px 0px;
+	line-height: 1.6;
+}
+
+.banner-left a i{
+	color: #a2a4cb;
+	transition: 0.5s;
+}
+
+
+.banner-left a i:hover{
+     color: #a2a4cb;
+     background: pink;
+     transform: translateY(10px);
+     transition: 0.5s
+}
+
+.banner-right img{
+	width: 100%;
+	height: auto;
+}
+
+
+
+.project{
+	width: 100%;
+	padding: 80px 0px;
+}
+
+.project-contant{
+	text-align: center;
+}
+
+.project-contant h3{
+	color: #000000;
+	font-size: 40px;
+	font-weight: 500;
+	margin-bottom: 20px;
+}
+
+.lobster{
+	color: #a2a4cb;
+	font-size: 16px;
+	font-family: 'Lobster', cursive;;
+	font-weight: 300;
+	line-height: 1.6;
+	margin: 20px 400px;
+}
+
+
+
+.project-gallery{
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+}
+
+.project-item a img{
+	width: 100%;
+	height: auto;
+	margin-bottom: 12px;
+	box-shadow: 0px 5px 9px 4px rgba(0, 0, 0, 0.4);
+}
+.project-item{
+	margin: 14px;
+}
+
+.project-item p{
+	color: #a2a4cb;
+	font-size: 16px;
+	font-weight: 300;
+}
+
+.features{
+	width: 100%;
+	padding: 80px 0px;
+}
+
+.features-contant{
+	text-align: center;
+}
+
+.features-contant h3{
+	color: #000000;
+	font-size: 40px;
+	font-weight: 500;
+	margin-bottom: 20px;
+}
+.lobster{
+	color: #a2a4cb;
+	font-size: 16px;
+	font-family: 'Lobster', cursive;;
+	font-weight: 300;
+	line-height: 1.6;
+	margin: 20px 400px;
+}
+
+
+.features-gallery{
+	display: grid;
+	grid-template-columns: auto auto auto;
+	margin: 0px 50px;
+}
+
+.gallery-item{
+	background: #f5f5f5;
+	margin: 16px;
+	padding: 28px 10px;
+	border-radius: 4px;
+}
+
+.gallery-item a i{
+	height: 50px;
+	width: 50px;
+	text-align: center;
+	color: #ff6162;
+	background: white;
+	line-height: 50px;
+	border-radius: 100%;
+	font-size: 26px;
+	margin-bottom: 10px;
+	transition: 0.5s ease-in-out;
+}
+
+.gallery-item h6{
+	color: #000000;
+	font-size: 20px;
+	font-weight: 500;
+	margin-bottom: 16px;
+}
+
+.gallery-item p{
+	color: #a2a4cb;
+	font-size: 16px;
+	font-weight: 300;
+	text-align: center;
+	margin: 20px 30px;
+}
+
+.gallery-item:hover{
+	background: white;
+	box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.gallery-item:hover a i{
+	color: white;
+	background: #ff6162;
+	transition: 0.5s ease-in-out;
+}
+
+
+footer{
+	width: 100%;
+	padding: 80px 0px;
+	background: #292640;
+	text-align: center;
+}
+
+.footer-contant h2{
+	color: white;
+	font-size: 46px;
+	font-weight: 600;
+	margin: 30px 320px;
+}
+
+
+.footer-contant button a{
+	border: none;
+	color: white;
+	padding: 16px 26px;
+	background: #ff6162;
+	font-size: 16px;
+	font-weight: 600;
+	text-transform: uppercase;
+	border-radius: 6px;	
+}
+
+.footer-contant img{
+	margin-top: 40px;
+}
+
+footer a i{
+	height: 50px;
+	width: 50px;
+	line-height: 50px !important;
+	border-radius: 100%;
+	text-align: center;
+	font-size: 22px;
+	background: #f5f5f5;
+	color: #ff6162;
+	position: fixed;
+	bottom: 25px;
+	right: 25px;
+	transition: 0.5s ease-in-out;
+}
+
+footer a i:hover{
+	color: white;
+    background: #ff6162;
+    transition: 0.5s ease-in-out;
+}
